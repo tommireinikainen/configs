@@ -23,5 +23,5 @@ colors
 setopt prompt_subst
 PROMPT='%{$fg_bold[green]%}%n@%m %{$fg[blue]%}%c %{$fg_bold[red]%}$(git_prompt_info)%{$fg[blue]%}%% %{$reset_color%}'
 
-alias emacs="emacs -nw"
-alias sagi="sudo apt-get install"
+# load aliases
+[[ -f ~/.zsh/zsh_aliases ]] && . ~/.zsh/zsh_aliases
