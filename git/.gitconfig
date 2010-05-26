@@ -1,0 +1,6 @@
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	gr = log --graph
