@@ -25,3 +25,5 @@ PROMPT='%{$fg_bold[green]%}%n@%m %{$fg[blue]%}%c %{$fg_bold[red]%}$(git_prompt_i
 
 # load aliases
 [[ -f ~/.zsh/zsh_aliases ]] && . ~/.zsh/zsh_aliases
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
