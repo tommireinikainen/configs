@@ -1,0 +1,6 @@
+alias emacs="emacs -nw"
+alias sagi="sudo apt-get install"
+
+alias g="git"
+alias cuc="cucumber"
+alias wip="cucumber -p wip"
